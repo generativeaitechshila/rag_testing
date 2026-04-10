@@ -31,7 +31,7 @@ Follow the steps below to set up and run the LLM & RAG evaluation framework.
 
 ### 1️⃣ Open the Framework
 - Open the project in **Visual Studio Code**
-- Navigate to the `LLM_RAG_EVALUATION` directory
+- Navigate to the `RAG_Testing` directory
 
 ---
 
@@ -39,20 +39,20 @@ Follow the steps below to set up and run the LLM & RAG evaluation framework.
 Delete the existing virtual environment folder:
 
 ```bash
-llm_rag_eval_env
+rag_eval_env
 
 ### 3️⃣ Create a New Virtual Environment
 Open the VS Code terminal and run:
 
 ```bash
-python3 -m venv llm_rag_eval_env
+python3 -m venv rag_eval_env
 
 ### 4️⃣ Activate the Virtual Environment
 
 Navigate to the virtual environment scripts directory:
 
 ```bash
-system_path\llm_rag_eval_env\Scripts
+system_path\rag_eval_env\Scripts
 
 
 Activate the environment:
@@ -69,7 +69,7 @@ activate
 Install all required dependencies using the requirements.txt file:
 
 ```bash
-pip3 install -r system_path\LLM_RAG_Evaluation\requirements.txt
+pip3 install -r system_path\RAG_Testing\requirements.txt
 
 ### 6️⃣ Run RAG Evaluation Tests
 
