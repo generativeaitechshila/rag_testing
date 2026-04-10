@@ -7,7 +7,7 @@ It is maintained by **Generative AI Techshila** and is intended for QA engineers
 
 ## 📁 Project Structure
 
-- **LLM_RAG_EVALUATION/**  
+- **RAG_Testing/**  
   Core directory containing evaluation scripts, test cases, and configuration.
 - **test_rag_eval.py**  
   Main test file used to execute RAG evaluation.
